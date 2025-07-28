@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 def run_bot():
     load_dotenv()
     # Temporary manual setting of the token
-    os.environ['discord_token'] = 'MTE1ODQzOTA0MzI2MTAxODIxMw.G4OicR.rsu0C1_1dmWZ3b8B5nqRtrbZhQOwEZCAL0XrBM'
+    os.environ['discord_token'] = '****'
     TOKEN = os.getenv('discord_token')
 
     # Debugging: Print the token value
